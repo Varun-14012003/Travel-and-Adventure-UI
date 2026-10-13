@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Registration</title>
+ </head>
+ <body>
+  <center><h2>Register with Us</h2></center>
+  <form method="post" action="Login.html">
+	<center>
+		<table>
+		<tr>
+			<td>Name</td>
+			<td><input type="text" name="name" pattern="[A-Za-z ]+" required></td>
+		</tr>
+		<tr>
+			<td>Email</td>
+			<td><input type="email" name="email" required></td>
+		</tr>
+		<tr>
+			<td>Phone</td>
+			<td><input type="tel" name="phone" pattern="[0-9]{10}"></td>
+		</tr>
+		<tr>
+			<td valign="top">Address</td>
+			<td><textarea name="address" rows="5" cols="30"></textarea></td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td><input type="text" name="username" required></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" minlength="6" required></td>
+		</tr>
+		<tr align="center	">
+			<td><input type="submit" value="Register"></td>
+			<td><input type="reset" value="Reset"></td>
+		</tr>
+		</table>
+	</center>
+  </form>
+ </body>
+</html>
